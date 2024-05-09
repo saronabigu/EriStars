@@ -1,0 +1,53 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: #000;
+}
+
+
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.nav {
+    display: flex;
+    gap: 50px; 
+}
+
+.nav a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.nav a:hover {
+    background-color: rgb(57, 198, 245);
+
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: #f2f5f7;
+    cursor: pointer;
+}
+
+.Camels {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
